@@ -15,7 +15,7 @@ def embed(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(f"Here is your embed code:\n{embed_code}")
 
 def main() -> None:
-    TOKEN = os.getenv("TELEGRAM_TOKEN")
+    TOKEN = os.getenv("7609207287:AAHNsu8KgFmicSN0aPIRcJe0DaeVeluV3hk")
     updater = Updater(TOKEN)
 
     dispatcher = updater.dispatcher
